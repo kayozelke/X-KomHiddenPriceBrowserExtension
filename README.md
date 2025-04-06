@@ -23,6 +23,9 @@ Cena zostaje ujawniona w sekcji z informacją o niedostępności produktu:
 ## Instalacja w trybie deweloperskim
 
 1. Pobierz lub sklonuj repozytorium na swój komputer.
+
+### Google Chrome 
+
 2. Otwórz Google Chrome i przejdź do: `chrome://extensions/`
 3. Włącz **Tryb dewelopera** (w prawym górnym rogu).
 4. Kliknij **"Załaduj rozpakowane"**.
