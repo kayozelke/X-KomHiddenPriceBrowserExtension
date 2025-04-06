@@ -3,11 +3,18 @@
   "name": "x-kom.pl - Cena wycofanego produktu",
   "version": "1.0",
   "description": "Pokazuje ukrytą cenę wycofanego produktu na stronie x-kom.pl",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
   "content_scripts": [
     {
-      "matches": ["*://*.x-kom.pl/*"],
-      "js": ["content.js"]
+      "matches": [
+        "*://*.x-kom.pl/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ],
   "icons": {
