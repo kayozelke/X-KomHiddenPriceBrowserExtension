@@ -23,13 +23,27 @@ Cena zostaje ujawniona w sekcji z informacją o niedostępności produktu:
 ## Instalacja w trybie deweloperskim
 
 1. Pobierz lub sklonuj repozytorium na swój komputer.
-
+---
 ### Google Chrome 
 
 2. Otwórz Google Chrome i przejdź do: `chrome://extensions/`
 3. Włącz **Tryb dewelopera** (w prawym górnym rogu).
 4. Kliknij **"Załaduj rozpakowane"**.
 5. Wskaż folder z rozszerzeniem (zawierający pliki, m.in. `manifest.json`).
+---
+### Mozilla Firefox
+
+2. Otwórz Mozilla Firefox i przejdź do: `about:debugging#/runtime/this-firefox`
+3. Kliknij **"Tymczasowo wczytaj dodatek"**.
+4. Wskaż plik `manifest.json` w katalogu firefox repozytorium.
+5. Uwaga! Po każdym zamknięciu Firefoxa rozszerzenie trzeba wczytać ponownie.
+
+---
+
 6. Wejdź na stronę wycofanego produktu na x-kom.pl – cena powinna się pojawić automatycznie. [Przykładowy produkt](https://www.x-kom.pl/p/217845-laptop-173-i-wieksze-dell-inspiron-5749-i7-5500u-8gb-1000-gf840m.html) (04.2025).
 
+
+## Informacje
+
+Dodatek utworzony 4fun. Autor nie przewiduje publikacji na marketplace przeglądarek.
 
